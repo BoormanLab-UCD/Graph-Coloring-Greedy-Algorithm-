@@ -14,6 +14,11 @@ files=list(files)
 
 # create empty list called [finalStims] 
 
+# choose random row in dictionary
+# place stim name in [finalStims]
+# remove strings under [SIMILAR IN COLOR] and [SIMILAR IN SHAPE] from [stims]
+# remove those stims' rows from dictionary
+
 # for number of elements in [finalStims] < 4, do
 #    choose random row in dictionary 
 #    place stim name in [finalStims]
