@@ -3,11 +3,10 @@ import string
 string.ascii_lowercase
 
 #point to a relative path
-# os.chdir(os.path.relpath('Stims', start='.')+'\\')
+os.chdir(os.path.relpath('Stims', start='.')+'\\')
 
 files=csv.DictReader(open('Stims Similarities.csv','r+'))
 files=list(files)
-
 
 # format dictionary => all stim names in one list called [stims], shuffle
 stims = [files['STIMULUS NAME']]
@@ -52,7 +51,7 @@ for i in xrange(1,4):
 print finalStims; 
 
 
-
+#--------------------------------------------------------------------------------
 
 
 #letters
